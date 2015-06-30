@@ -17,19 +17,56 @@ Provides basic functionality such as watch, test, coverage, shrinkwrap, release 
 
 ## Usage
 
+Edit your `gulpfile.js` file and paste the following in:
+
+    /* jshint node:true */
+    /* jshint expr:true*/
+    /* global require */
+    'use strict';
+    
+    var gulp = require('gulpfile.basics');
+
 ## Provided Tasks
 
 ### default
 
+Will start the `watch` task
+
+    gulp
+
 ### watch
 
+Any `js` or `json` file change in the package directory will trigger a `lint` check and run the tests
+
+    gulp watch
+    
 ### test
 
+The [Mocha Test Framework](http://mochajs.org/) has to be used and tests have to be in a `test` directory and the file names must use match `filename.spec.js`.
+
+    gulp test
+
 ### coverage
+
+Uses the [JS Code Coverage Tool Istanbul](https://github.com/gotwarlost/istanbul), run the tests and generates three different report formats:
+
+- [LCOV](http://ltp.sourceforge.net/coverage/lcov.php) (stored in `coverage` folder)
+- [Cobertura](http://cobertura.github.io/cobertura/) (stored in `coverage` folder)
+- JSON (stored in `report` folder)
+
+The Cobertura report is used to generate a coverage badge that you can use in your README file
+
+    ![coverage](reports/coverage.svg)
+
+On Github you have to use the following:
+
+    ![coverage](https://cdn.rawgit.com/<username>/<repository>/master/reports/coverage.svg)
 
 ### shrinkwrap
 
 Generates a `npm-shrinkwrap.json` file without any `resolve` property
+
+    gulp shrinkwrap
 
 ### release
 
