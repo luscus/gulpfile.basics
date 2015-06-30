@@ -12,8 +12,11 @@ Provides basic functionality such as watch, test, coverage, shrinkwrap, release 
 
 ## Installation
 
+    npm install gulp --save-dev
     npm install gulpfile.basics --save-dev
-    
+
+## Usage
+
 ## Provided Tasks
 
 ### default
@@ -26,11 +29,11 @@ Provides basic functionality such as watch, test, coverage, shrinkwrap, release 
 
 ### shrinkwrap
 
-Generates a `npm-shrinkwrap.json` file
+Generates a `npm-shrinkwrap.json` file without any `resolve` property
 
 ### release
 
-Tests, checks coverage, shrinkwarps, bumps, commits and pushes a new version of the package. This tasks will only commit following files: ./package.json, ./gulpfile.js, ./npm-shrinkwrap.json and ./reports/**/*
+Tests, checks coverage, shrinkwarps, bumps, commits, tags and pushes a new version of the package to the repository. This tasks will only commit following files: ./package.json, ./gulpfile.js, ./npm-shrinkwrap.json and ./reports/**/*
 Bump target is per default the patch number, you can pass following command line arguments to bump to minor or major versions:
 
     gulp release
