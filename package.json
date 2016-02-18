@@ -1,6 +1,6 @@
 {
   "name": "gulpfile.basics",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "./lib/gulpfile.basics",
   "homepage": "https://github.com/luscus/gulpfile.basics",
