@@ -1,6 +1,6 @@
 {
   "name": "gulpfile.basics",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "gulp-bump": {
       "version": "1.0.0",
