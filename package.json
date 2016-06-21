@@ -1,6 +1,6 @@
 {
   "name": "gulpfile.basics",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "main": "./lib/gulpfile.basics",
   "homepage": "https://github.com/luscus/gulpfile.basics",
@@ -17,23 +17,23 @@
     "publish"
   ],
   "dependencies": {
-    "package.root": "1.0.1",
-    "gulp-bump": "1.0.0",
-    "gulp-git": "1.7.0",
-    "gulp-istanbul": "0.10.3",
-    "gulp-jshint": "2.0.0",
-    "gulp-mocha": "2.2.0",
-    "gulp-param": "1.0.3",
-    "gulp-shrinkwrap": "2.0.1",
-    "istanbul-cobertura-badger": "1.2.1",
-    "jshint-stylish": "2.1.0",
-    "npm": "2.12.0",
-    "q": "1.4.1"
+    "package.root": "^1.0.1",
+    "gulp-bump": "^1.0.0",
+    "gulp-git": "^1.7.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-param": "^1.0.3",
+    "gulp-shrinkwrap": "^2.0.1",
+    "istanbul-cobertura-badger": "^1.2.1",
+    "jshint-stylish": "^2.1.0",
+    "npm": "^2.15.1",
+    "q": "^1.4.1"
   },
   "devDependencies": {
-    "gulp": "3.9.1",
-    "chai": "3.5.0",
-    "mocha": "2.4.5"
+    "gulp": "^3.9.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   },
   "repository": {
     "type": "git",
