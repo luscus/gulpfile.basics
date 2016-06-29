@@ -1,6 +1,6 @@
 {
   "name": "gulpfile.basics",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "main": "./lib/gulpfile.basics",
   "homepage": "https://github.com/luscus/gulpfile.basics",
@@ -27,6 +27,7 @@
     "gulp-shrinkwrap": "^2.0.1",
     "istanbul-cobertura-badger": "^1.2.1",
     "jshint-stylish": "^2.1.0",
+    "jshint": "^2.9.2",
     "npm": "^2.15.1",
     "q": "^1.4.1"
   },
