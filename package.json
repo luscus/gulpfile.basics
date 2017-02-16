@@ -22,14 +22,15 @@
     "gulp-git": "^1.7.0",
     "gulp-istanbul": "^1.0.0",
     "gulp-jshint": "^2.0.0",
-    "gulp-mocha": "^2.2.0",
+    "gulp-mocha": "^3.0.0",
     "gulp-param": "^1.0.3",
     "gulp-shrinkwrap": "^2.0.1",
     "istanbul-cobertura-badger": "^1.2.1",
     "jshint-stylish": "^2.1.0",
     "jshint": "^2.9.2",
     "npm": "^2.15.1",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "snyk": "^1.25.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -41,6 +42,9 @@
     "url": "git@github.com:luscus/gulpfile.basics.git"
   },
   "scripts": {
-    "test": "gulp test"
-  }
+    "test": "gulp test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
