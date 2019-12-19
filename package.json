@@ -28,7 +28,7 @@
     "istanbul-cobertura-badger": "^1.2.1",
     "jshint-stylish": "^2.1.0",
     "jshint": "^2.9.2",
-    "npm": "^2.15.1",
+    "npm": "^6.13.4",
     "q": "^1.4.1"
   },
   "devDependencies": {
