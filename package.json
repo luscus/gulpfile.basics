@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "package.root": "^1.0.1",
-    "gulp-bump": "^1.0.0",
+    "gulp-bump": "^2.0.0",
     "gulp-git": "^1.7.0",
     "gulp-istanbul": "^1.0.0",
     "gulp-jshint": "^2.0.0",
